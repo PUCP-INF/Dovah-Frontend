@@ -1,0 +1,76 @@
+{
+  "name": "todomenosmodules",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-tailwind/react": "^1.2.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/lab": "^5.0.0-alpha.108",
+    "@mui/material": "^5.10.12",
+    "@mui/system": "^5.10.12",
+    "@mui/utils": "^5.10.9",
+    "@mui/x-data-grid": "^5.17.3",
+    "@mui/x-date-pickers": "^5.0.6",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/uuid": "^8.3.4",
+    "axios": "^0.27.2",
+    "chart.js": "^4.0.1",
+    "dayjs": "1.11.6",
+    "notistack": "^2.0.8",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-chartjs-2": "^5.0.1",
+    "react-collapsible": "^2.10.0",
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.4.0",
+    "react-is": "^18.2.0",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.7",
+    "react-stomp-hooks": "^2.1.0",
+    "typescript": "^4.9.3",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/plugin-syntax-flow": "^7.18.6",
+    "@babel/plugin-transform-react-jsx": "^7.19.0",
+    "@emotion/babel-plugin": "^11.10.5",
+    "@faker-js/faker": "^7.6.0",
+    "autoprefixer": "^10.4.7",
+    "hermes-eslint": "^0.9.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}

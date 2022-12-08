@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: sans-serif;
+  }
+}
+
+/*PUCP Colors*/
+
+.bg-blue-pucp {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 35 84 / var(--tw-bg-opacity));
+}
+
+.bg-blue-pucp-2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28, 72, 143 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-blue-pucp:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 35 84 / var(--tw-bg-opacity));
+}
+
+.text-blue-pucp {
+  --tw-text-opacity: 1;
+  color: rgb(4 35 84 / var(--tw-text-opacity));
+}
+
+.from-blue-pucp {
+  --tw-gradient-from: #042354;
+  --tw-gradient-to: rgb(4 35 84 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-blue-pucp {
+  --tw-gradient-stops: var(--tw-gradient-from), #042354,
+    var(--tw-gradient-to, rgb(4 35 84 / 0));
+}
+
+.border-blue-pucp {
+  --tw-border-opacity: 1;
+  border-color: rgb(4 35 84 / var(--tw-border-opacity));
+}
+
+.w-input {
+  width: 38rem;
+}
+
+.h-30 {
+  height: 120px;
+}
+
+.h-screen-pucp {
+  height: 100vh -120px;
+}
+
+.padding-pucp {
+  padding: 0 calc(3.5vw + 5px);
+}
